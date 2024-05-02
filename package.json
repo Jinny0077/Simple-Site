@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "join.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinny0077/Simple-Site.git"
+  },
+  "author": "Jinny0077",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jinny0077/Simple-Site/issues"
+  },
+  "homepage": "https://github.com/Jinny0077/Simple-Site#readme"
+}

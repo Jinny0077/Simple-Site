@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="join.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <div id="error"></div>
+  
+    <form id="registrationForm" action="/" onsubmit="validateForm(event)">
+
+        <label for="username">Enter username: </label>
+        <input type="text" id="username" name="username" >
+        <br><br>
+        <label for="email">Enter email: </label>
+        <input type="email" id="email" name="email" >
+        <br><br>
+        <label for="password">Enter password: </label>
+        <input type="password" id="password" name="password" >
+
+        <p>Select your age: </p>
+
+        <input type="radio" name="age" value:=0-21 id="option-1">
+        <label for="option-1">0-21</label>
+        <input type="radio" name="age" value="22-50" id="option-2">
+        <label for="option-2">22-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51 or above</label>
+
+        <br><br>
+
+        <label for="question">Security quesiton</label>
+        <select name="question" id="question">
+            <option value="q1">What is your first pet name?</option>
+            <option value="q2">What is your farvourite food?</option>
+            <option value="q3">What is your farvourite color?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security question answer: </label>
+        <input type="text" id="answer" name="answer" >
+
+        <br><br>
+
+        <label for="bio">Your bio: </label>
+
+        <br><br>
+
+        <textarea name="bio" id="bio" cols="43" rows="8" placeholder="about you..."></textarea>
+
+        <br><br>
+
+        <div class="submit">
+            <input type="submit" value="Submit the form">
+        </div>
+        
+    </form>
+
+    <script src="join.js"></script>
+    
+</body>
+</html>
+
